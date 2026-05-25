@@ -1,0 +1,14 @@
+{
+  "threshold": 1,
+  "true_positives": 200,
+  "false_positives": 39,
+  "true_negatives": 1761,
+  "false_negatives": 0,
+  "precision": 0.8368,
+  "recall": 1,
+  "false_positive_rate": 0.0217,
+  "total_claims": 2000,
+  "fraud_claims": 200,
+  "flagged_claims": 239,
+  "processing_time_ms": 115
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ai-challenge-10-fraud-scoring-engine",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TypeScript CLI fraud detection scoring engine for AI Challenge 10.",
+  "type": "module",
+  "scripts": {
+    "generate": "tsx src/cli.ts generate",
+    "score": "tsx src/cli.ts score",
+    "all": "tsx src/cli.ts all",
+    "test": "node --import tsx --test tests/**/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "tsx": "^4.19.2",
+    "typescript": "^5.4.5"
+  }
+}
