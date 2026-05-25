@@ -168,9 +168,9 @@ This meets the challenge targets of recall at least 70%, false positive rate at 
 - The upcoding rule compares single-procedure claims against peer claims for the same procedure excluding itself, so an outlier does not dilute its own z-score and bundled totals are not misread as per-procedure outliers.
 - The weekend anomaly rule uses provider history before the claim date, which better matches the challenge's historical-volume requirement.
 
-## Timeline Estimate
+## Timeline
 
-For a reviewer planning this challenge manually, I would estimate 4-6 hours: about 1 hour for data modeling and generation, 1.5-2 hours for the eight rules and scoring, 1 hour for reports and metrics, and 1-2 hours for tests, calibration, and README polish.
+This implementation took approximately 4 hours, including problem breakdown, data modeling, rule implementation, scoring, tests, report generation, and documentation.
 
 ## Project Structure
 

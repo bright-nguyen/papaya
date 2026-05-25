@@ -105,6 +105,10 @@ These results meet the challenge requirements:
 
 AI assistance was used as part of the implementation workflow, in line with the challenge guidance. I used it to accelerate code generation, test coverage, documentation, and review iterations. I kept the final responsibility on understanding the domain assumptions, rule design, edge cases, and generated outputs.
 
+## Timeline
+
+The AI Engineering Challenge implementation took approximately 4 hours, including problem breakdown, data modeling, rule implementation, scoring, tests, report generation, and documentation.
+
 ## Notes for Reviewers
 
 Start with this root README for orientation, then read:
